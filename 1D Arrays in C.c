@@ -26,8 +26,6 @@
 
 
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
 #include <stdlib.h>
 
 int sum(int arr[], int n) 
