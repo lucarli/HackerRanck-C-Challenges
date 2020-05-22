@@ -51,7 +51,8 @@ int main() {
         scanf("%d", &arr[i]);
 
     printf("Sum of given array is %d", sum(arr, n));
+    
+    free(arr);
 
     return 0;
 }
-
