@@ -40,5 +40,7 @@ int main() {
         printf("%d ",count);
     }
     
+    free(s);
+    
     return 0;
 }
