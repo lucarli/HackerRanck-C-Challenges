@@ -25,8 +25,7 @@ int main() {
     s = malloc(1024 * sizeof(char));
     scanf("%[^\n]", s);
     s = realloc(s, strlen(s) + 1);
-    //Write your logic to print the tokens of the sentence here.
-    
+
    char *token = strtok(s, " ");
    // loop through the string to extract all other tokens
    while( token != NULL ) {
@@ -34,6 +33,7 @@ int main() {
       token = strtok(NULL, " ");
    }
    
+   free(s);
+   
     return 0;
 }
-
