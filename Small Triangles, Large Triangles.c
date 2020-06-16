@@ -36,9 +36,9 @@ struct triangle
 
 typedef struct triangle triangle;
 
-int heron(triangle tr){
+float heron(triangle tr){
     
-    int p = (tr.a + tr.b + tr.c)/2;
+    float p = (tr.a + tr.b + tr.c)/2.0;
     
     return sqrt(p * (p - tr.a) * (p - tr.b) * (p - tr.c)); 
     
